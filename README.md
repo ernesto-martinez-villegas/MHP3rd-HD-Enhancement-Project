@@ -1,197 +1,169 @@
-# Monster Hunter Portable 3rd HD – Soul Lock Camera & Monster HP Display
+# MHP3rd HD Enhancement Project
 
-**Souls-like camera lock-on + monster vitality display for Monster Hunter Portable 3rd HD (MHP3rd HD) on PPSSPP.**
-
-A quality-of-life mod that adds a **camera lock-on system** inspired by Dark Souls / Elden Ring, allowing the camera to automatically follow and stay locked onto the targeted monster, plus a clean and customizable monster HP (vitality) display.
-
-Perfect if you’re looking for:
-- Camera lock-on / target lock for MHP3rd HD
-- Souls-style fixed camera that follows the monster
-- Monster HP bar / vitality display
-- Better combat readability on PPSSPP
-
----
+An independent project dedicated to enhancing and expanding Monster Hunter Portable 3rd HD on PPSSPP.
 
 ## Features
 
-- **Soul Lock** — Classic lock-on / target lock. Locks the camera onto a selected monster.
-- **Soul Track** — Continuous automatic tracking. The camera smoothly follows the locked monster (Souls-like behavior).
-- **Monster Vitality** — Displays the monster’s name, current HP and maximum HP in real time.
-- **Boss Vitality** — Optional mode that only shows HP for large monsters (100+ max HP).
-- **Vitality Colors** — Fully customizable colors: white, black, light gray, dark gray, red, yellow or green.
+### Soul Lock-On
+Locks the camera onto a selected monster, making it easier to keep track of your target during combat.
 
----
+### Soul Track
+Automatically tracks the locked monster with the camera.
 
-## Demonstration
+### Monster Vitality
+Displays the monster's name, current HP, and maximum HP in real time.
 
-[Watch Soul Lock & Monster Vitality in action](https://youtu.be/6Vj36WmaqtU)
+### Only Big Monsters Vitality
+An optional mode that displays vitality information only for large monsters.
 
----
+### Vitality Colors
+Allows users to choose the colors used to display monster vitality information.
 
-## Compatibility
-
-| Item              | Details                          |
-|-------------------|----------------------------------|
-| Game              | Monster Hunter Portable 3rd HD (MHP3rd HD) |
-| Game ID           | `NPJB-40001`                     |
-| Emulator          | PPSSPP                           |
-| Type              | CWCheat / PPSSPP cheat file      |
-
-> Tested on PPSSPP. Compatibility may vary depending on the exact game version and emulator settings.
-
----
+### Monster Stamina
+Displays monster stamina information. Introduced in version 0.2.
 
 ## Controls
 
-The lock-on system is controlled with **L + D-Pad**:
+| Control | Function |
+|---|---|
+| L + D-Pad Up | Enable Soul Lock-On |
+| L + D-Pad Down | Disable Soul Lock-On |
+| L + D-Pad Left | Switch to the previous target |
+| L + D-Pad Right | Switch to the next target |
 
-| Input          | Action                          |
-|----------------|---------------------------------|
-| `L + Up`       | Enable Soul Lock (camera lock-on) |
-| `L + Down`     | Disable Soul Lock               |
-| `L + Left`     | Switch to previous target       |
-| `L + Right`    | Switch to next target           |
+## Compatibility
 
-Once activated, **Soul Track** keeps the camera locked and following the selected monster automatically.
-
----
+| Item | Details |
+|---|---|
+| Game | Monster Hunter Portable 3rd HD |
+| Game ID | NPJB-40001 |
+| Emulator | PPSSPP |
+| Format | CWCheat-compatible `.ini` file |
 
 ## Installation
 
-1. Download `NPJB40001.ini` from this repository or from the [Releases](https://github.com/ernesto-martinez-villegas/mhp3rd-hd-soulslike-camera/releases) page.
-2. Place the file inside your PPSSPP `cheats` folder.
-3. Launch **Monster Hunter Portable 3rd HD**.
-4. Open the **Cheats** menu in PPSSPP.
+1. Download `NPJB40001.ini` from the repository or the Releases section.
+2. Place the file in the `cheats` folder inside your PPSSPP directory.
+3. Launch Monster Hunter Portable 3rd HD.
+4. Open the Cheats menu in PPSSPP.
 5. Enable the mod and the features you want to use.
+6. Make sure the game ID matches `NPJB-40001`.
 
-Make sure the cheat file matches the game ID: `NPJB-40001`.
+## Video Demonstration
 
----
+Watch the mod in action:
+
+[Monster Hunter Portable 3rd HD Enhancement Project Demo](https://youtu.be/6Vj36WmaqtU)
 
 ## Version History
 
-### v0.1
-- Initial public release
-- Soul Lock camera lock-on / target lock
-- Soul Track automatic monster following
-- Monster Vitality (HP display)
-- Boss Vitality option
-- Vitality Colors customization
+| Version | Features |
+|---|---|
+| v0.1 | Soul Lock-On, Soul Track, Monster Vitality, Only Big Monsters Vitality, Vitality Colors |
+| v0.2 | Monster Stamina |
 
----
+## Roadmap
 
-## About
+The project may receive additional improvements and features in future versions.
 
-This independent fan-made mod was created to bring a modern **Souls-like camera lock-on** experience and clear **monster HP tracking** to *Monster Hunter Portable 3rd HD* on PPSSPP.  
+## Contributions
 
-It is ideal for players who want a fixed camera that follows the monster, better combat readability, and a more comfortable hunting experience.
+Suggestions, feedback, and reports of compatibility issues are welcome. Contributions can be submitted through GitHub Issues or Pull Requests.
 
----
+## Credits
+
+This project builds on the work and tools of the emulation and modding communities. Appropriate credit should be given to original authors where applicable.
 
 ## Disclaimer
 
-This is an unofficial fan project.  
-*Monster Hunter* and all related trademarks and assets are the property of their respective rights holders.
+This is an independent, unofficial project and is not affiliated with, endorsed by, or sponsored by Capcom.
 
-This repository only distributes mod configuration files and documentation. It does **not** include the original game or any of its assets.
+Monster Hunter Portable 3rd HD and its related intellectual property belong to their respective rights holders.
 
----
-
-<br>
-
-# Monster Hunter Portable 3rd HD – Soul Lock Camera y Visualización de HP
-
-**Sistema de cámara lock-on estilo Souls + visualización de vida de monstruos para Monster Hunter Portable 3rd HD (MHP3rd HD) en PPSSPP.**
-
-Mod de calidad de vida que añade un **sistema de fijación de cámara** inspirado en Dark Souls / Elden Ring, permitiendo que la cámara se fije y siga automáticamente al monstruo objetivo, junto con una interfaz limpia y personalizable para ver los HP (vitality) de los monstruos.
-
-Ideal si estás buscando:
-- Cámara lock-on / target lock para MHP3rd HD
-- Cámara fija estilo Souls que sigue al monstruo
-- Barra de vida / HP de monstruos
-- Mejor legibilidad en combate en PPSSPP
+This repository distributes configuration files and documentation only. It does not include the original game or its assets.
 
 ---
 
-## Características
+# Proyecto de mejora de Monster Hunter Portable 3rd HD
 
-- **Soul Lock** — Lock-on / target lock clásico. Fija la cámara en un monstruo seleccionado.
-- **Soul Track** — Seguimiento automático continuo. La cámara sigue suavemente al monstruo fijado (comportamiento estilo Souls).
-- **Monster Vitality** — Muestra el nombre, HP actual y HP máximo del monstruo en tiempo real.
-- **Boss Vitality** — Modo opcional que solo muestra HP en monstruos grandes (100+ de vida máxima).
-- **Vitality Colors** — Colores completamente personalizables: blanco, negro, gris claro, gris oscuro, rojo, amarillo o verde.
+Un proyecto independiente dedicado a mejorar y ampliar Monster Hunter Portable 3rd HD en PPSSPP.
 
----
+## Funciones
 
-## Demostración
+### Soul Lock-On
+Fija la cámara en un monstruo seleccionado, facilitando el seguimiento del objetivo durante el combate.
 
-[Ver Soul Lock y Monster Vitality en acción](https://youtu.be/6Vj36WmaqtU)
+### Soul Track
+Sigue automáticamente con la cámara al monstruo fijado como objetivo.
 
----
+### Monster Vitality
+Muestra en tiempo real el nombre del monstruo, sus HP actuales y sus HP máximos.
 
-## Compatibilidad
+### Only Big Monsters Vitality
+Un modo opcional que muestra información de vitalidad únicamente para los monstruos grandes.
 
-| Elemento          | Detalles                             |
-|-------------------|--------------------------------------|
-| Juego             | Monster Hunter Portable 3rd HD (MHP3rd HD) |
-| ID del juego      | `NPJB-40001`                         |
-| Emulador          | PPSSPP                               |
-| Tipo              | Archivo CWCheat / cheat de PPSSPP    |
+### Vitality Colors
+Permite elegir los colores utilizados para mostrar la información de vitalidad de los monstruos.
 
-> Probado en PPSSPP. La compatibilidad puede variar según la versión exacta del juego y la configuración del emulador.
-
----
+### Monster Stamina
+Muestra información sobre la resistencia de los monstruos. Esta función se incorporó en la versión 0.2.
 
 ## Controles
 
-El sistema de fijación se controla con **L + Cruceta**:
+| Control | Función |
+|---|---|
+| L + Cruceta arriba | Activar Soul Lock-On |
+| L + Cruceta abajo | Desactivar Soul Lock-On |
+| L + Cruceta izquierda | Cambiar al objetivo anterior |
+| L + Cruceta derecha | Cambiar al siguiente objetivo |
 
-| Combinación     | Acción                              |
-|-----------------|-------------------------------------|
-| `L + Arriba`    | Activar Soul Lock (camera lock-on)  |
-| `L + Abajo`     | Desactivar Soul Lock                |
-| `L + Izquierda` | Cambiar al objetivo anterior        |
-| `L + Derecha`   | Cambiar al siguiente objetivo       |
+## Compatibilidad
 
-Una vez activado, **Soul Track** mantiene la cámara fijada y siguiendo automáticamente al monstruo seleccionado.
-
----
+| Elemento | Detalles |
+|---|---|
+| Juego | Monster Hunter Portable 3rd HD |
+| ID del juego | NPJB-40001 |
+| Emulador | PPSSPP |
+| Formato | Archivo `.ini` compatible con CWCheat |
 
 ## Instalación
 
-1. Descarga el archivo `NPJB40001.ini` desde este repositorio o desde la sección [Releases](https://github.com/ernesto-martinez-villegas/mhp3rd-hd-soulslike-camera/releases).
-2. Colócalo en la carpeta `cheats` de PPSSPP.
-3. Inicia **Monster Hunter Portable 3rd HD**.
-4. Abre el menú **Cheats** en PPSSPP.
-5. Activa el mod y las funciones que desees usar.
+1. Descarga `NPJB40001.ini` desde el repositorio o la sección Releases.
+2. Coloca el archivo en la carpeta `cheats` de tu directorio de PPSSPP.
+3. Inicia Monster Hunter Portable 3rd HD.
+4. Abre el menú Cheats de PPSSPP.
+5. Activa el mod y las funciones que quieras utilizar.
+6. Asegúrate de que el ID del juego coincida con `NPJB-40001`.
 
-Asegúrate de que el archivo coincida con el ID del juego: `NPJB-40001`.
+## Demostración en vídeo
 
----
+Mira el mod en funcionamiento:
+
+[Demostración del proyecto de mejora de Monster Hunter Portable 3rd HD](https://youtu.be/6Vj36WmaqtU)
 
 ## Historial de versiones
 
-### v0.1
-- Primera versión pública
-- Soul Lock (camera lock-on / target lock)
-- Soul Track (seguimiento automático del monstruo)
-- Monster Vitality (visualización de HP)
-- Opción Boss Vitality
-- Personalización de colores Vitality Colors
+| Versión | Funciones |
+|---|---|
+| v0.1 | Soul Lock-On, Soul Track, Monster Vitality, Only Big Monsters Vitality, Vitality Colors |
+| v0.2 | Monster Stamina |
 
----
+## Planes futuros
 
-## Sobre el proyecto
+El proyecto podría recibir nuevas mejoras y funciones en futuras versiones.
 
-Este mod independiente fue creado para llevar una experiencia moderna de **cámara lock-on estilo Souls** y un seguimiento claro de la **vida de los monstruos** a *Monster Hunter Portable 3rd HD* en PPSSPP.
+## Contribuciones
 
-Es ideal para jugadores que buscan una cámara fija que siga al monstruo, mejor legibilidad en combate y una experiencia de caza más cómoda.
+Se agradecen las sugerencias, los comentarios y los informes de problemas de compatibilidad. Las contribuciones pueden enviarse mediante GitHub Issues o Pull Requests.
 
----
+## Créditos
+
+Este proyecto se apoya en el trabajo y las herramientas de las comunidades de emulación y modificación de videojuegos. Se debe reconocer a los autores originales cuando corresponda.
 
 ## Aviso legal
 
-Este es un proyecto no oficial creado por un aficionado.  
-*Monster Hunter* y todas sus marcas y recursos pertenecen a sus respectivos titulares de derechos.
+Este es un proyecto independiente y no oficial, sin afiliación, respaldo ni patrocinio de Capcom.
 
-Este repositorio solo distribuye archivos de configuración del mod y documentación. **No** incluye el juego original ni ninguno de sus assets.
+Monster Hunter Portable 3rd HD y su propiedad intelectual relacionada pertenecen a sus respectivos titulares.
+
+Este repositorio distribuye únicamente archivos de configuración y documentación. No incluye el juego original ni sus recursos.
